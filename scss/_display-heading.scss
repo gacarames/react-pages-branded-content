@@ -1,0 +1,11 @@
+.wrapper-block-text {
+  .display-heading {
+    display: block;
+    color: $primary-font-color;
+    font-family: $heading-font-family;
+    font-size: 28px; // PASAR COMO PROPS
+    font-weight: bold;
+    line-height: 34px; // PASAR COMO PROPS
+    margin-bottom: 32px;
+  }
+}

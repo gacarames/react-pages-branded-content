@@ -1,0 +1,11 @@
+.block-text-section {
+  .wrapper-block-text {
+    padding: 0 16px;
+  }
+}
+
+@import "./paragraph";
+@import "./blockquote";
+@import "./display-heading";
+@import "./list";
+@import "./link";

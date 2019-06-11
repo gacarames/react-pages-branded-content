@@ -1,0 +1,18 @@
+.introduction-text-section {
+  .wrapper-introduction {
+    padding: 0 16px;
+    @media (min-width: $breakpoint-tablet) {
+      padding: 0;
+    }
+    .block-text-blurb {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+      margin: 32px 0 0;
+
+      &.white {
+        color: #ffffff;
+      }
+    }
+  }
+}

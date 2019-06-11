@@ -1,0 +1,38 @@
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 12px;
+  z-index: 99;
+
+  &.sticky {
+    position: fixed;
+    top: 24px;
+    width: 156px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: $static-shadow;
+    transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  &.sticky-full {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 8px;
+    box-shadow: $static-shadow;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .navbar-link {
+    display: flex;
+
+    .navbar-logo {
+      width: 100%;
+      height: auto;
+      max-height: 24px;
+    }
+  }
+}
